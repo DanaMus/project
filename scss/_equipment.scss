@@ -1,9 +1,14 @@
-.equipment-box {
-  display: flex;
-  justify-content: space-between;
+.bag {
+  width: 50%;
+  margin: 20px auto;
 }
 
-.bag {
-  width: 30%;
-  padding-right: 30px;
+@media screen and (min-width: 768px) {
+  .equipment-box {
+    display: flex;
+    justify-content: space-between;
+  }
+  .bag {
+    width: 30%;
+  }
 }

@@ -119,18 +119,23 @@
   }
 }
 
-.equipment-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.bag {
+  width: 50%;
+  margin: 20px auto;
 }
 
-.bag {
-  width: 30%;
-  padding-right: 30px;
+@media screen and (min-width: 768px) {
+  .equipment-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .bag {
+    width: 30%;
+  }
 }
 
 .photo {
