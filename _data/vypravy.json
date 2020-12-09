@@ -1,0 +1,43 @@
+[
+  {
+    "nazev": "Výprava do kouzelného lesa",
+    "date": "2021-09-04",
+    "datum": "4.9.2021",
+    "detail": "Zveme vás na první výpravu po prázdninách. Vydáme se do lesa za Modrým potokem, který je vzdálený přibližně 8 kilometrů od klubovny. Pomocí her budeme objevovat tajemství lesa. Postavíme si domečky pro skřítky a užijeme si spoustu zábavy. Pak se zase vypravíme zpátky přes Zelenou louku a Starý mlýn."
+  }, 
+
+  {
+    "nazev": "Barevná podzimní výprava",
+    "date": "2021-09-18",
+    "datum": "18.9.2021",
+    "detail": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid voluptate cupiditate quia tenetur quidem! Perferendis voluptate ipsum molestiae ullam, hic odit deleniti reprehenderit beatae inventore accusamus vitae commodi at doloremque."
+  },
+
+  {
+    "nazev": "Výprava za pokladem",
+    "date": "2021-10-02",
+    "datum": "2.10.2021",
+    "detail": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid voluptate cupiditate quia tenetur quidem! Perferendis voluptate ipsum molestiae ullam, hic odit deleniti reprehenderit beatae inventore accusamus vitae commodi at doloremque."
+  },
+
+  {
+    "nazev": "Výprava za zvířátky",
+    "date": "2021-10-16",
+    "datum": "16.10.2021",
+    "detail": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid voluptate cupiditate quia tenetur quidem! Perferendis voluptate ipsum molestiae ullam, hic odit deleniti reprehenderit beatae inventore accusamus vitae commodi at doloremque."
+  },
+
+   {
+    "nazev": "Stopovací výprava",
+    "date": "2021-11-15",
+    "datum": "15.11.2021",
+    "detail": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid voluptate cupiditate quia tenetur quidem! Perferendis voluptate ipsum molestiae ullam, hic odit deleniti reprehenderit beatae inventore accusamus vitae commodi at doloremque."
+  },
+
+  {
+    "nazev": "Předvánoční výprava",
+    "date": "2021-12-18",
+    "datum": "18.12.2021",
+    "detail": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid voluptate cupiditate quia tenetur quidem! Perferendis voluptate ipsum molestiae ullam, hic odit deleniti reprehenderit beatae inventore accusamus vitae commodi at doloremque."
+  }
+]

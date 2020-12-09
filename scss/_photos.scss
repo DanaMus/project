@@ -1,0 +1,8 @@
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  align-items: center;
+  margin: 30px;
+  object-fit: cover;
+}

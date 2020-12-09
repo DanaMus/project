@@ -1,0 +1,118 @@
+@import "variables";
+@import "header";
+@import "equipment";
+@import "aboutus";
+@import "contact";
+@import "joinus";
+@import "photos";
+@import "events";
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font;
+  color: $cfont;
+  background-color: lighten($cbackground-secondary, 15%);
+}
+
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: $cbackground;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 600px;
+  }
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 1.4em;
+}
+
+h2 {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 12px;
+}
+
+.invitation {
+  background-color: $cbackground-secondary;
+  color: white;
+  padding: 5px;
+  margin: 30px auto;
+  border-radius: 5px;
+  .joinus {
+    text-decoration: none;
+    color: $cbutton;
+    &:hover {
+      color: lighten($cbutton, 10);
+    }
+  }
+}
+
+.equipment {
+  background-color: $cbutton;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 5px 5px 2px lightgrey;
+  margin: 30px auto 30px;
+  text-decoration: none;
+  transition: transform 2s;
+  &:hover {
+    background-color: $cbackground-secondary;
+  }
+  &:active {
+    background-color: $cfont;
+    box-shadow: 2px 2px 1px lightgrey;
+    transform: translate(3px 3px);
+  }
+}
+
+.icons {
+  margin: 20px auto;
+}
+
+.icon-box {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  border-radius: 10px;
+  background-color: lighten($cbackground, 10%);
+  i {
+    margin: 0 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .icons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .icon-box {
+    width: 30%;
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 3px 3px 2px lightgrey;
+  }
+}

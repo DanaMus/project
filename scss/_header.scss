@@ -1,0 +1,109 @@
+.btn-home {
+  border-radius: 5px;
+  width: 7em;
+  height: 2.3em;
+  background-color: #c7b198;
+  color: white;
+  display: flex;
+  font-size: 0.7em;
+  line-height: 2.3em;
+  &-icon {
+    border-radius: 5px;
+    width: 2.3em;
+    height: 2.3em;
+    margin-right: 5px;
+  }
+  &:hover {
+    color: darken($cbackground-secondary, 30%);
+    opacity: 0.8;
+  }
+  &:active {
+    color: $cbutton;
+  }
+}
+
+.home-link {
+  text-decoration: none;
+}
+
+.header-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.menu-right {
+  text-align: right;
+  position: relative;
+}
+
+.menu-list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.menu-item {
+  border-bottom: 1px solid white;
+  text-align: center;
+  background-color: #c7b198;
+  padding: 0 20px;
+}
+
+.menu-list a {
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+
+.menu-list a:hover {
+  color: darken($cbackground-secondary, 30%);
+}
+
+.menu-list a:active {
+  color: $cbutton;
+}
+
+.toggle:checked ~ .menu-list {
+  display: block;
+  position: absolute;
+  z-index: 2;
+  top: 20px;
+  right: 0;
+}
+
+.toggle {
+  text-indent: -9999px;
+  font-size: 0;
+  opacity: 0;
+}
+
+.hamburger {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-list,
+  .toggle:checked ~ .menu-list {
+    display: flex;
+    position: relative;
+  }
+  .hamburger,
+  .toggle {
+    display: none;
+  }
+  .menu-item {
+    border-bottom: 0;
+    border-left: 1px solid white;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 1.5em;
+    padding: 5px;
+  }
+  .menu-right {
+    width: 400px;
+    font-size: 0.7em;
+  }
+}

@@ -1,0 +1,16 @@
+---
+layout: layouts/sablona.njk
+title: Akce
+---
+
+<p>Pokud není uvedeno jinak, sraz je vždy v 9:00 před klubovnou, návrat v 17:00 na stejné místo (v případě změny budete včas informováni). Jestli se nemůžete dostavit, prosíme o zaslání omluvenky prostřednictvím e-mailu nebo sms zprávy.</p>
+
+<h1>Naplánované akce</h1>
+
+{% for akce in vypravy %}
+  <h2>{{ akce.nazev }}</h2>
+  <h3>{{ akce.datum }}</h3>
+  <p class="event">{{ akce.detail }}</p>
+{% endfor %}
+
+

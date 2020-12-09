@@ -1,0 +1,33 @@
+---
+layout: layouts/sablona.njk
+title: Úvodní stránka
+---
+   
+<section class="main-info">
+<h1>Co nás čeká v nejbližší době</h1>
+
+  {% for akce in vypravy %}
+    {% if loop.index < 4 %}
+      <h2>{{ akce.nazev }}</h2>
+      <h3>{{ akce.datum }}</h3>
+      <p class="event">{{ akce.detail | truncate(150) }}</p>
+  {% endif %}
+{% endfor %}
+</section>
+<a href="/vybaveni" class="equipment">Co s sebou na výpravu</a>
+<p>Aliquid voluptate cupiditate quia tenetur quidem! Perferendis voluptate ipsum molestiae ullam, hic odit deleniti reprehenderit beatae inventore accusamus vitae commodi at doloremque.</p>
+<p class="invitation"><a href="/pripojse" class="joinus">Přidej se k nám...</a> a získej zážitky a přátele na celý život...</p>
+<div class="icons">
+  <div class="icon-box">
+    <i class="fab fa-envira"></i>
+    <p>Láska k přírodě</p>
+  </div>
+  <div class="icon-box">
+    <i class="fas fa-handshake"></i>
+    <p>Přátelství</p>
+  </div>
+  <div class="icon-box">
+    <i class="fas fa-compass"></i>
+    <p>Samostatnost</p>
+  </div>
+</div>
